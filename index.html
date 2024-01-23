@@ -19,8 +19,8 @@
 
 </head>
 
-<body class="font-manrope">
-    <Header class="mx-auto lg:px-40">
+<body class="font-manrope lg:max-w-6xl lg:ml-48 ">
+    <Header class=" px-1 ">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -41,7 +41,7 @@
                             <li><a class="hover:text-[#FF4240]">Contact</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-xl font-extrabold">Hockey<span class="text-amber-500">'</span>s</a>
+                    <a class="text-xl font-extrabold">Hockey<span class="text-amber-500">'</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
@@ -59,27 +59,63 @@
             </div>
 
         </nav>
-        <div class=" w-full mt-10 flex">
+        <div class="carousel w-full gap-7">
             <div id="slide1" class="carousel-item relative w-full">
                 <img src="Images/1.png" class="w-full" />
                 <div class="absolute gap-10 transform translate-y-1/2 left-5 right-5 lg:top-3/4 top-1/2">
-                    <a href="#slide4" class="btn btn-circle bg-gray-950 border-inherit text-white">❮</a>
+                    <a href="#slide3" class="btn btn-circle bg-gray-950 border-inherit text-white">❮</a>
                     <a href="#slide2" class="btn btn-circle bg-gray-950 text-white border-inherit">❯</a>
+
                 </div>
-                
+                <!-- <div
+                    class="card fixed hidden  h-40 w-80 lg:h-40 lg:w-96 bg-base-100 shadow-xl bg-gray-950 -ml-80 lg:mr-56 top-60 lg:top-96 lg:right-20">
+                    <div class="card-body">
+                        <h2 class="card-title text-base lg:text-lg text-white font-extrabold">Meet all the heroes from
+                            the
+                            field</h2>
+                        <p class="text-xs lg:text-base text-white">Dit amet consectetur. Condimentum dignissim
+                            adipiscing
+                            aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+                        <div class="card-actions justify-end">
+
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="Images/1.png" class="w-full" />
+                <div class="absolute gap-10 transform translate-y-1/2 left-5 right-5 lg:top-3/4 top-1/2">
+                    <a href="#slide1" class="btn btn-circle bg-gray-950 border-inherit text-white">❮</a>
+                    <a href="#slide3" class="btn btn-circle bg-gray-950 text-white border-inherit">❯</a>
+                </div>
 
 
             </div>
-            <div class="card h-40 w-80 lg:h-40 lg:w-96 bg-base-100 shadow-xl bg-gray-950 -ml-80 lg:-ml-96 top-60 lg:top-96 lg:right-20">
-                <div class="card-body">
-                  <h2 class="card-title text-base lg:text-lg text-white font-extrabold">Meet all the heroes from the field</h2>
-                  <p class="text-xs lg:text-base text-white">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
-                  <div class="card-actions justify-end">
-                    
-                  </div>
-                </div>
-              </div>
+            <div id="slide3" class=" flex carousel-item relative w-full">
+                <img src="Images/1.png" class="w-full" />
+                <div class="absolute gap-10 transform translate-y-1/2 left-5 right-5 lg:top-3/4 top-1/2">
+                    <a href="#slide2" class="btn btn-circle bg-gray-950 border-inherit text-white">❮</a>
+                    <a href="#slide1" class="btn btn-circle bg-gray-950 text-white border-inherit">❯</a>
 
+                </div>
+
+            </div>
+            <!-- <div
+                class="card fixed h-40 w-72 lg:h-40 lg:w-96 bg-base-100 shadow-xl bg-gray-950 -ml-72 right-10 lg:mr-56 top-60 lg:top-96 lg:right-20">
+                <div class="card-body">
+                    <h2 class="card-title text-base lg:text-lg text-white font-extrabold">Meet all the heroes from
+                        the
+                        field</h2>
+                    <p class="text-xs lg:text-xs text-white">Dit amet consectetur. Condimentum dignissim
+                        adipiscing
+                        aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+                    <div class="card-actions justify-end">
+
+                    </div>
+                </div>
+            </div> -->
         </div>
 
 
@@ -87,7 +123,116 @@
 
 
     </Header>
-    <main>
+
+    <main class="mx-auto px-1 lg:px-40">
+        <hr class="mt-16 border-dashed">
+        <section class=" w-auto  lg:max-w-full text-center justify-center items-center lg:mt-10">
+
+            <h2 class="text-xs font-extrabold lg:text-3xl">Professional Hockeys Club</h2>
+            <p class="text-xs mt-5 lg:ml-72 lg:mr-72">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                turpis placerat dolor.
+                Purus urna in sit nullam proin. </p>
+            <div class="lg:flex justify-center gap-36 mt-20">
+                <div>
+                    <div class="radial-progress text-red-500" style="--value:87;" role="progressbar"><span
+                            class="text-black font-extrabold">87%</span></div>
+                    <h1 class="font-bold m-3">Prayer Facility</h1>
+                    <p class="text-xs text-center text-neutral ml-24 mr-24 mb-5g lg:m-0">Amet consectetur. Condimentum
+                        dignissim adipiscing .</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-green-500 mt-3 lg:mt-0" style="--value:95;" role="progressbar">
+                        <span class="text-black font-extrabold">95%</span></div>
+                    <h1 class="font-bold m-3">Experienced Coach</h1>
+                    <p class="text-xs text-center text-neutral ml-24 mr-24 mb-5 lg:m-0">Amet consectetur. Condimentum
+                        dignissim adipiscing .</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-orange-500" style="--value:90;" role="progressbar"><span
+                            class="text-black font-extrabold">90%</span></div>
+                    <h1 class="font-bold m-3">Senior Player</h1>
+                    <p class="text-xs text-center text-neutral ml-24 mr-24 mb-5 lg:m-0">Amet consectetur. Condimentum
+                        dignissim adipiscing .</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar"><span
+                            class="text-black font-extrabold">80%</span></div>
+                    <h1 class="font-bold m-3">Training Ground</h1>
+                    <p class="text-xs text-center text-neutral ml-24 mr-24 mb-5 lg:m-0">Amet consectetur. Condimentum
+                        dignissim adipiscing .</p>
+                </div>
+
+
+
+            </div>
+            <hr class="mt-16 border-dashed">
+
+
+
+
+        </section>
+        <section class=" w-auto  lg:max-w-full text-center justify-center items-center lg:mt-10">
+
+            <h2 class="text-xs font-extrabold lg:text-3xl">Program Sections</h2>
+            <p class="text-xs mt-5 lg:ml-72 lg:mr-72">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                turpis placerat dolor.
+                Purus urna in sit nullam proin. </p>
+            <hr class="mt-16 border-dashed">
+
+        </section>
+        <section class="">
+            <div class="grid grid-rows-1 lg:grid-cols-2 gap-5">
+                <div class="card w-80 lg:w-auto bg-base-100 shadow-xl image-full">
+                    <figure><img src="Images/2.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <div class="mt-16">
+                            <h2 class="card-title font-extrabold mb-5">Junior Program</h2>
+                        <p class="text-xs">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.</p>
+                        </div>
+                        
+                        <div class="card-actions">
+                            <button class="btn bg-[#FF4240] w-36 text-white border-inherit h-10">Buy Now</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-auto bg-base-100 shadow-xl image-full">
+                    <figure><img src="/Images/3.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                       <div class="mt-16">
+                        <h2 class="card-title font-extrabold mb-5">Junior Program</h2>
+                        <p class="text-xs">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.</p>
+                       </div>
+                        
+                        <div class="card-actions">
+                            <button class="btn bg-[#FF4240] w-36 text-white border-inherit h-10">Buy Now</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-80 lg:w-auto bg-base shadow-xl image-full lg:col-span-2">
+                    <figure><img src="/Images/4.png" alt="Shoes" /></figure>
+                    <div class="card-body pr-80">
+                        <div class="mt-24">
+                            <h2 class="card-title font-extrabold mb-5">Junior Program</h2>
+                        <p class="text-xs">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.</p>
+                        </div>
+                        
+                        <div class="card-actions">
+                            <button class="btn bg-[#FF4240] w-36 text-white border-inherit h-10">Buy Now</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
     </main>
     <footer>
